@@ -1,0 +1,78 @@
+body {
+    transition: background-color 0.3s ease, color 0.3s ease;
+    font-size: 16px;
+  }
+  
+  .theme-light {
+    background-color: #ffffff;
+    color: #000000;
+  }
+  
+  .theme-dark {
+    background-color: #121212;
+    color: #f5f5f5;
+  }
+  
+  .theme-ocean {
+    background-color: #e0f7fa;
+    color: #006064;
+  }
+  
+  .theme-light .card {
+    background-color: #f8f9fa;
+  }
+  
+  .theme-dark .card {
+    background-color: #1e1e1e;
+  }
+  
+  .theme-ocean .card {
+    background-color: #b2ebf2;
+  }
+  
+  .theme-light .list-group-item {
+    background-color: #ffffff;
+  }
+  
+  .theme-dark .list-group-item {
+    background-color: #1e1e1e;
+  }
+  
+  .theme-ocean .list-group-item {
+    background-color: #b2ebf2;
+  }
+  
+  .list-default .list-group-item {
+    border: none;
+  }
+  
+  .list-bordered .list-group-item {
+    border: 1px solid #ccc;
+    margin-bottom: 5px;
+    border-radius: 5px;
+  }
+  
+  .list-striped .list-group-item:nth-child(odd) {
+    background-color: #f2f2f2;
+  }
+  
+  .card {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    font-size: 2rem;
+  }
+  
+  .card-title {
+    font-size: 1.25rem;
+  }
+  
+  select.form-select, .btn {
+    font-size: 1rem;
+  }
+  
+  .list-group-item {
+    font-size: 1rem;
+  }
+  
